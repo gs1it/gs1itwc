@@ -176,7 +176,6 @@ found at http://polymer.github.io/PATENTS.txt
     ${ro.debug?N`<link rel="stylesheet" href="./css/alert.css" />`:N``}
     <div class="alert gs1-alert alert-default is-dismissible gs1-color-danger gs1-background-color-danger-light-2">
       <div>
-        Tapiri tapioca
       </div>
       <i class="bi bi-x" data-bs-dismiss="alert" aria-label="Close" role="button"></i>
     </div>

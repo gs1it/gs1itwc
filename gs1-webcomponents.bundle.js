@@ -245,6 +245,9 @@ const Bt=(t=>(...o)=>({_$litDirective$:t,values:o}))(class extends class{constru
       <a class="social-link social-icon facebook" href="https://facebook.com/GS1Italy-Servizi-107857358775348">
         <gs1-fa-icon family="fab" type="fa-facebook-f"></gs1-fa-icon>
       </a>
+      <a class="social-link social-icon instagram" href="https://www.instagram.com/gs1italyservizi/">
+        <gs1-fa-icon family="fab" type="fa-instagram"></gs1-fa-icon>
+      </a>
       `:k``}copyToClipboard(){var t=document.createElement("textarea");t.value=window.location.href,t.setAttribute("readonly",""),t.style.position="absolute",t.style.left="-9999px",document.body.appendChild(t),t.select(),document.execCommand("copy"),document.body.removeChild(t)}mailTo(){var t,o=(null===(t=document.querySelector("title"))||void 0===t?void 0:t.text)||"Condivisione pagina GS1",r=window.location.href;window.location.assign("mailto:?subject="+o+"&body="+r)}facebookShare(){var t="https://www.facebook.com/sharer/sharer.php?u="+window.location.href;window.open(t,"_blank")}twitterShare(){var t="https://twitter.com/intent/tweet?url="+window.location.href+"&lang=it";window.open(t,"_blank")}linkedinShare(){var t="https://linkedin.com/cws/share?url="+window.location.href;window.open(t,"_blank")}render(){return k`
     ${nt.debug?k`<link rel="stylesheet" href="/css/social.css" />`:k``}
     <div class="gs1-social ${this.type}">

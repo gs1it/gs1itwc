@@ -1,3 +1,4 @@
+/*! gs1-webcomponents v1.7.7 | BSD-3-Clause | 2026-04-22T23:31:18.941Z */
 /**
  * @license
  * Copyright 2019 Google LLC
